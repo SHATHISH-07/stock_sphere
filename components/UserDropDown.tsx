@@ -23,7 +23,7 @@ const UserDropDown = () => {
   };
 
   const user = {
-    name: "john",
+    name: "Shathish",
     email: "shathishumaran07@gmail.com",
   };
 
@@ -35,7 +35,7 @@ const UserDropDown = () => {
           className="flex items-center gap-3 text-gray-400 hover:text-yellow-400"
         >
           <Avatar className="h-8 w-8">
-            {/* <AvatarImage src="https://github.com/shadcn.png" /> */}
+            <AvatarImage src="https://github.com/shadcn.png" />
             <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
               {user.name[0].toUpperCase()}
             </AvatarFallback>
